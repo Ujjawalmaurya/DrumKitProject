@@ -1,0 +1,85 @@
+/* Root styling */
+
+html {
+  font-size: 6em;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  /* background-color: black; */
+  background: url(https://images.unsplash.com/photo-1571327073757-71d13c24de30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZHJ1bSUyMGtpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center/100% fixed;
+  font-family: Arial, sans-serif;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* ! Body starts */
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  user-select: none;
+}
+
+/* Drum buttons  styling */
+
+#drumkit {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 70%;
+}
+
+@media screen and (min-width: 900px) {
+  #drumkit {
+    align-content: center;
+  }
+}
+
+.button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.05s;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.playing {
+  transform: scale(0.95);
+}
+
+h3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(0%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+p center{
+  padding-left: 50px;
+  font-size: 10px;
+  color: rgb(147, 151, 151);
+}
+
+.btn{
+  padding: 40px;
+  margin: 10px;
+  border: solid 2px;
+  color:aquamarine;
+  background-color:crimson;
+}
