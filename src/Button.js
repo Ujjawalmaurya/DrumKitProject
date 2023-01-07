@@ -10,7 +10,7 @@ class Button extends Component {
         className={`button${playing ? ' playing' : ''}`}
         onClick={playSound}
       >
-      <button className='btn'>Drum {index + 1}</button>
+      <button className='btn'>Drum - {index + 1}</button>
       </div>
     );
   }

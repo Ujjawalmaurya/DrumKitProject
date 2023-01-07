@@ -77,7 +77,7 @@ class App extends Component {
       <section id="drumkit">
         {renderButtons}
       </section>
-      <center>Press drum number from your Num Row.</center>
+      <p>Press drum number from your Num Row.</p>
       </>
     );
   }
