@@ -56,7 +56,7 @@ class App extends Component {
           return sound;
         })
       });
-    }, 70);
+    }, 40);
   }
   
   render() {

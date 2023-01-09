@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+<div align="center">
+<h1>Project Drum Kit</h1>
+<!-- <h2>Made by Ujjawal Maurya</h2> -->
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<br />
 
-## Available Scripts
+## Document version Control
 
-In the project directory, you can run:
+<table border>
+<th>Date Issued</th>
+<th>Version</th>
+<th>Description</th>
+<th>Author</th>
+<tr>
+<td>07-01-2023</td>
+<td>0.1.0</td>
+<td>Initially pushed complete project</td>
+<td>Ujjawal</td>
+</tr>
 
-### `npm start`
+<tr>
+<td>09-01-2023</td>
+<td>0.1.0</td>
+<td>Added Low Level Docs</td>
+<td>Ujjawal</td>
+</tr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- <tr>
+<td>0-01-2023</td>
+<td>0.1.2</td>
+<td>Fixed some bugs</td>
+<td>Ujjawal</td>
+</tr> -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</tr>
+</table>
 
-### `npm test`
+<br>
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contents
 
-### `npm run build`
+Document Version Control
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Abstract
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<ol>
+    <li>
+    Introduction
+        <ul>
+            <li>1.1 Introduction</li>
+            <!-- <li>1.2 </li> -->
+        </ul>
+    </li>
+    <li>
+    Technical Specs
+        <ul>
+            <li>2.1 - Predicting Outcome </li>
+            <li>2.2 - Logging </li>
+            <li>2.3 - Database </li>
+            <li>2.4 - Deployment </li>
+        </ul>
+    </li>
+    <li>Technology Stack</li>
+    <li>Proposed Solution</li>
+    <li>Model training/validation workflow</li>
+    <li>User I/O workflow</li>
+    <li>Exceptional scenarios</li>
+    <li>Test cases</li>
+    <li>Key performance indicators (KPI)</li>
+</ol>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Introduction
 
-### `npm run eject`
+The purpose of this document is to present a detailed description of this Project workflow.
+It will explain the purpose and features of the system, the interfaces of the system, what the
+system will do, the constraints under which it must operate and how the system will react to
+external stimuli. This document is intended for both the stakeholders and the developers of
+the system and will be proposed to the higher management for its approval.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technical Specs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ul>
+    <li>
+        User will able to see all brums in from of Buttons as of now.
+    </li>
+    <li>
+        Clicking on them will produce sound.
+    </li>
+    <li>
+        Keymapping will be there for better experience of playing drum.
+    </li>
+    <li>
+        NumRow will be used to trigger drum sound events.
+    </li>
+</ul>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Logging
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<ul>
+    <li>
+    The System identifies at what step logging required
+    </li>
+    <li>
+    The System should be able to log each and every system flow.</li>
+</ul>
 
-## Learn More
+## Databse
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+No databse Required
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployed on Github Pages
