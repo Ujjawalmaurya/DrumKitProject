@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DrumKitProject/static/css/main.09234b68.css",
+    "main.js": "/DrumKitProject/static/js/main.bf0e0151.js",
+    "index.html": "/DrumKitProject/index.html",
+    "main.09234b68.css.map": "/DrumKitProject/static/css/main.09234b68.css.map",
+    "main.bf0e0151.js.map": "/DrumKitProject/static/js/main.bf0e0151.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09234b68.css",
+    "static/js/main.bf0e0151.js"
+  ]
+}
