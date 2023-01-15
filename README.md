@@ -3,9 +3,6 @@
 <!-- <h2>Made by Ujjawal Maurya</h2> -->
 </div>
 
-<br />
-<br />
-
 ## Document version Control
 
 <table border>
@@ -37,7 +34,6 @@
 </tr>
 </table>
 
-<br>
 <br>
 
 ## Contents
