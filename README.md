@@ -110,3 +110,7 @@ No databse Required
 ## Deployment
 
 Deployed on Github Pages
+
+## Preview
+
+![](./screenshots/01.png)
